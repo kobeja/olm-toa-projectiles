@@ -1,13 +1,13 @@
-package com.example;
+package com.olmToaProjectiles;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class OlmToaProjectilesPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(OlmToaProjectilesPlugin.class);
 		RuneLite.main(args);
 	}
 }
